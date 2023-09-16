@@ -1,13 +1,11 @@
-import './App.css';
+import Header from '../Header/Header';
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Header />
       <p>
-      Features
-  Team
-  Sign In
-
   All your files in one secure location, accessible anywhere.
 
   Fylo stores all your most important files in one secure location. Access them wherever 
