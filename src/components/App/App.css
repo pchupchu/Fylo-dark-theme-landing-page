@@ -3,8 +3,6 @@
     min-height: 100vh;
     font-size: 14px;
     font-weight: 400;
-    color: var(--white);
-    background-color: var(--saturated-dark-blue);
     /* display: flex;
     flex-direction: column;
     justify-content: center;
