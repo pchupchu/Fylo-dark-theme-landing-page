@@ -3,16 +3,16 @@ import logo from '../../images/logo.svg'
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <img className="header__logo" src={logo} alt="logo" />
-      <nav className='header__navigation'>
+      <nav>
         <ul className='header__links'>
           <li><a className='header__link' href=' '>Features</a></li>
           <li><a className='header__link' href=' '>Team</a></li>
           <li><a className='header__link' href=' '>Sign In</a></li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
 

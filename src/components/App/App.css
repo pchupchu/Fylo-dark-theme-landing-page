@@ -9,4 +9,30 @@
     align-items: center; */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+
+    position: relative;
+/* 
+    background-color: var(--dark-blue);
+    background-position-y: 420px; */
+
+
   }
+
+  /* .app::after{
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    height: 100%;
+
+  }
+
+  .app__container {
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    height: 100vh;
+  } */
