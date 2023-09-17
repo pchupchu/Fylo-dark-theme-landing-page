@@ -1,4 +1,5 @@
 import About from '../About/About';
+import Advantages from '../Advantages/Advantages';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import './App.css'
@@ -9,18 +10,8 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Advantages />
       <p>
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
-
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
-
-  See how Fylo works
-
   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
   become a well-oiled collaboration machine.
 
