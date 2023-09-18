@@ -2,6 +2,7 @@ import About from '../About/About';
 import Advantages from '../Advantages/Advantages';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
+import Reviews from '../Reviews/Reviews';
 import './App.css'
 
 function App() {
@@ -11,25 +12,8 @@ function App() {
       <Hero />
       <About />
       <Advantages />
+      <Reviews />
       <p>
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Satish Patel
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Bruce McKenzie
-  Founder & CEO, Huddle
-
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
-
-  Iva Boyd
-  Founder & CEO, Huddle
-
   Get early access today
 
   It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 

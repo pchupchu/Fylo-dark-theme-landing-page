@@ -33,8 +33,6 @@ function About() {
           <p className='about__text'>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
   file types to be securely stored and shared.</p>
         </li>
-
-
       </ul>
     </div>
   );
