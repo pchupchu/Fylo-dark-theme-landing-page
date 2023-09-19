@@ -4,8 +4,7 @@
   
 @media screen and (min-width: 960px) {
   .reviews {
-    padding-top: 118px;
-    padding-bottom: 137px;
+    padding: 100px 48px;
   }
 }
 

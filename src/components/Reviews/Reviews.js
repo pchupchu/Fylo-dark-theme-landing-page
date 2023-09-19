@@ -5,7 +5,7 @@ import profile3 from '../../images/profile-3.jpg';
 
 function Reviews() {
   return (
-    <div className="reviews">
+    <section className="reviews">
       <ul className='reviews__list'>
         <li className='reviews__item'>
         <div className='reviews__quotes'></div>
@@ -39,7 +39,7 @@ function Reviews() {
             </div>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }
 

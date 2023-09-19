@@ -7,7 +7,7 @@ import folder from '../../images/icon-any-file.svg';
 
 function About() {
   return (
-    <div className="about">
+    <section className="about">
       <ul className='about__list'>
         <li className='about__item'>
           <img className="about__image" src={computer} alt="computer and phone" />
@@ -34,7 +34,7 @@ function About() {
   file types to be securely stored and shared.</p>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }
 
