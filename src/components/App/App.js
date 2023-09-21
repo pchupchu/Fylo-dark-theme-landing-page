@@ -1,5 +1,6 @@
 import About from '../About/About';
 import Advantages from '../Advantages/Advantages';
+import Footer from '../Footer/Footer';
 import Form from '../Form/Form';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
@@ -15,23 +16,7 @@ function App() {
       <Advantages />
       <Reviews />
       <Form />
-      <p>
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-      </p>
+      <Footer />
     </div>
   );
 }

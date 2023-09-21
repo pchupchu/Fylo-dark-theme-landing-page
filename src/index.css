@@ -26,6 +26,8 @@ body {
   --grey: #c0c0c0;
   --shadow: rgba(0, 0, 0, 0.16);
   --button-shadow: rgba(7, 4, 59, 0.16);
+  --form-shadow: rgba(0, 0, 0, 0.25);
+
   /* 
 - Dark Blue (intro and email sign up background): #1c2431
 - Dark Blue (main background): #181f2a

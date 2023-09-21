@@ -11,6 +11,12 @@
   background-position-x: -17px;
 }
 
+@media screen and (min-width: 960px) {
+  .hero {
+    padding-top: 50px;
+  }
+}
+
 .hero__image {
   padding: 0 8px;
   width: 100%;
