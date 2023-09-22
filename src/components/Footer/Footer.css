@@ -1,5 +1,5 @@
 .footer {
-  padding: 260px 28px 8px;
+  padding: 260px 28px 52px;
   background-color: var(--very-dark-blue);
   flex-grow: 0;
   box-sizing: border-box;
@@ -67,6 +67,7 @@
 @media screen and (min-width: 1024px) {
   .footer__contacts {
     grid-template-columns: minmax(200px, 1fr) max-content;
+    grid-template-rows: auto auto;
     column-gap: 80px;
     grid-template-areas:
     "address phone"
