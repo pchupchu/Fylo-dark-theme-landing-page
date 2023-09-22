@@ -2,6 +2,7 @@
   padding: 260px 28px 52px;
   background-color: var(--very-dark-blue);
   flex-grow: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 960px) {
