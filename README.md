@@ -17,7 +17,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/simple-mobilefirst-solution-to-react-component-using-flexbox-VdvdY-rbX_)
-- [Live Site URL](https://order-summary-component-main-vert-nu.vercel.app/)
+- [Live Site URL](https://vercel.com/pchupchu/fylo-dark-theme-landing-page)
 
 ### Built with
 
