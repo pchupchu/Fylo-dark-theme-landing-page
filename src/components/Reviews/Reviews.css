@@ -1,10 +1,11 @@
 .reviews {
-  padding: 80px 48px;
+  padding: 100px 48px 0;
 }
   
 @media screen and (min-width: 960px) {
   .reviews {
-    padding: 100px 48px;
+    padding-bottom: 100px;
+    padding-top: 60px;
   }
 }
 
@@ -28,12 +29,18 @@
   position: relative;
 }
 
+@media screen and (min-width: 960px) {
+  .reviews__item {
+    padding-top: 40px;
+  }
+}
+
 .reviews__quotes {
   position: absolute;
   top: -20px;
   left: 5px;
-  height: 30px;
-  width: 30px;
+  height: 22px;
+  width: 22px;
   background-image: url('../../images/bg-quotes.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -42,10 +49,10 @@
 
 @media screen and (min-width: 896px) {
   .reviews__quotes {
-    height: 50px;
-    width: 50px;
-    top: -32px;
-    left: -6px;
+    height: 54px;
+    width: 54px;
+    top: -35px;
+    left: -7px;
   }
 }
 

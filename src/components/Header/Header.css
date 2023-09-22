@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 24px 24px 20px;
+  padding: 24px 24px 22px 20px;
   box-sizing: border-box;
   flex-shrink: 0;
+  background-color: var(--saturated-dark-blue);
 }
 
 @media screen and (min-width: 960px) {
@@ -30,6 +31,13 @@
   gap: 24px;
   padding-left: 0;
   list-style: none;
+  margin: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .header__links {
+    gap: 57px;
+  }
 }
 
 .header__link {
@@ -38,12 +46,15 @@
   font-size: 12px;
   font-weight: 400;
   cursor: pointer;
+  transition: text-shadow .3s;
 }
 
 .header__link:hover {
-  font-weight: 700;
   text-decoration: underline;
+  text-shadow: 0 0 1.5px var(--white), 0 0 1.5px var(--white), 0 0 1.5px var(--white);
 }
+
+
 
 @media screen and (min-width: 960px) {
   .header__link {

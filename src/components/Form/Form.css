@@ -1,18 +1,19 @@
 .form {
   padding: 0 20px;
   display: flex;
-  margin: 0 auto;
+  margin: -20px auto 0;
   justify-content: center;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 720px) {
   .form {
-    padding-top: 100px;
+      margin-top: 0;
   }
 }
 
 .form__container {
   max-width: 863px;
+  box-sizing: border-box;
   border-radius: 9px;
   padding: 40px 28px 37px;
   display: flex;
@@ -27,6 +28,7 @@
 @media screen and (min-width: 720px) {
   .form__container {
       padding: 42px 77px 18px;
+      transform: translateY(38%);
   }
 }
 
@@ -56,6 +58,7 @@
 @media screen and (min-width: 720px) {
   .form__text {
       margin-bottom: 38px;
+      padding: 0 18px;
   }
 }
 
@@ -83,7 +86,7 @@
   min-height: 48px;
   box-sizing: border-box;
   background-color: var(--white);
-  padding-left: 29px;
+  padding: 0 0 0 29px;
   font-size: 14px;
   line-height: 1.21;
   margin-bottom: 24px;
@@ -143,6 +146,7 @@
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  padding: 0;
 }
 
 .form__button:hover {

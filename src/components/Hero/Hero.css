@@ -4,23 +4,28 @@
   align-items: center;
   justify-content: center;
   padding: 24px 28px 40px;
-  background-image: url('../../images/bg-curvy-mobile.svg');
+  background-image: url('../../images/bg-curvy-mobile.svg'), linear-gradient(0deg, var(--dark-blue) 96px, var(--saturated-dark-blue) 1%);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-y: 200px;
-  background-position-x: -17px;
+  background-position-y: calc(100% - 96px), 0;
+  background-position-x: 0;
+  background-color: var(--saturated-dark-blue);
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 720px) {
   .hero {
     padding-top: 50px;
+    background-image: url('../../images/bg-curvy-desktop.svg');
+    background-position-y: bottom;
+    background-color: var(--saturated-dark-blue);
   }
 }
 
 .hero__image {
+  box-sizing: border-box;
   padding: 0 8px;
   width: 100%;
-  max-width: 720px;
+  max-width: 735px;
   margin-bottom: 33px;
 }
 
@@ -36,6 +41,7 @@
   font-weight: 700;
   line-height: 36px;
   margin: 0 0 15px;
+  max-width: 734px;
 }
 
 @media screen and (min-width: 960px) {
@@ -53,6 +59,7 @@
   font-weight: 400;
   line-height: 21px;
   margin: 0 16px 32px;
+  max-width: 590px;
 }
 
 @media screen and (min-width: 960px) {
@@ -63,7 +70,7 @@
 }
 
 .hero__button {
-  width: 64%;
+  width: 75%;
   max-width: 280px;
   height: 48px;
   border: none;
@@ -74,6 +81,11 @@
   color: var(--white);
   font-size: 14px;
   font-weight: 700;
+  padding: 0;
+}
+
+.hero__button:hover {
+  background: var(--cyan-button);
 }
 
 @media screen and (min-width: 960px) {

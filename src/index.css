@@ -7,8 +7,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Raleway', 'Open Sans', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: var(--saturated-dark-blue); */
-  background-image: linear-gradient(180deg, var(--saturated-dark-blue) 425px, var(--dark-blue) 1%);
+  background-color: var(--dark-blue);
   color: var(--white);
 }
 
@@ -27,14 +26,5 @@ body {
   --shadow: rgba(0, 0, 0, 0.16);
   --button-shadow: rgba(7, 4, 59, 0.16);
   --form-shadow: rgba(0, 0, 0, 0.25);
-
-  /* 
-- Dark Blue (intro and email sign up background): #1c2431
-- Dark Blue (main background): #181f2a
-- Dark Blue (footer background): #0b1523
-- Dark Blue (testimonials background): #202a3c
-
-- Cyan (inside call-to-action gradient): #65e2d9
-- Blue (inside call-to-action gradient): #339ecc */
 }
 

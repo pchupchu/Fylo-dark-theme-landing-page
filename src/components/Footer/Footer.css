@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 960px) {
   .footer {
-    padding-top: 169px;
+    padding-top: 157px;
   }
 }
 
@@ -16,19 +16,21 @@
 }
 
 .footer__content {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
 .footer__logo {
   width: 108px;
   height: 31px;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
+  padding-left: 11px;
 }
 
 @media screen and (min-width: 960px) {
   .footer__logo {
-    margin-bottom: 52px;
+    margin-bottom: 50px;
+    padding-left: 0;
   }
 }
 
@@ -41,7 +43,7 @@
 
 .footer__contacts {
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: minmax(200px, 1fr);
   grid-template-rows: auto auto auto;
   grid-auto-flow: column;
   align-content: start;
@@ -49,13 +51,12 @@
     "address"
     "phone"
     "email";
-  row-gap: 16px;
-  margin-bottom: 59px;
+  row-gap: 15px;
+  margin-bottom: 55px;
 }
 
 @media screen and (min-width: 768px) {
   .footer__contacts {
-    grid-template-columns: minmax(200px, 1fr);
     margin-bottom: 0;
     max-width: calc(100vw - 600px);
   }
@@ -110,24 +111,17 @@
 
 .footer__text_contact {
   padding-left: 40px;
+  font-size: 14px;
 }
 
-@media screen and (min-width: 960px) {
-  .footer__text_contact {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  .footer__text_address {
+.footer__text_address {
     font-size: 16px;
-  }
 }
 
 .footer__navigation {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 46px;
   margin-bottom: 56px;
 
 }
@@ -135,7 +129,7 @@
 @media screen and (min-width: 768px) {
   .footer__navigation {
     flex-direction: row;
-    gap: 80px;
+    gap: 70px;
     margin-bottom: 0;
   }
 }
@@ -145,13 +139,21 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 15px;
   padding-left: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .footer__links {
+    gap: 16px;
+  }
 }
 
 .footer__link {
   color: var(--white);
   text-decoration: none;
+  display: inline-block;
+  width: 87px;
 }
 
 .footer__link:hover {
@@ -163,24 +165,31 @@
   flex-direction: row;
   gap: 11px;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 @media screen and (min-width: 960px) {
   .footer__social-icons {
     margin-top: 0;
-    margin-left: 28px;
+    margin-left: 38px;
   }
 }
 
 .footer__social-icon {
-  width: 31px;
-  height: 31px;
+  width: 26px;
+  height: 26px;
   border: 1px solid var(--white);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 960px) {
+  .footer__social-icon {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .footer__social-icon:hover {

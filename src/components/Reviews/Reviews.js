@@ -8,7 +8,7 @@ function Reviews() {
     <section className="reviews">
       <ul className='reviews__list'>
         <li className='reviews__item'>
-        <div className='reviews__quotes'></div>
+          <div className='reviews__quotes'></div>
           <p className='reviews__text'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
           <div className='reviews__author'>
             <img className="reviews__image" src={profile1} alt="man" />
