@@ -7,7 +7,7 @@ import './Main.css'
 
 function Main() {
   return (
-    <main className='content'>
+    <main className='main'>
       <Hero />
       <About />
       <Advantages />
