@@ -1,11 +1,16 @@
 .copyright {
+  margin: 0 auto;
   background-color: var(--very-dark-blue);
   font-size: 11px;
   text-align: center;
-  padding: 5px 24px 8px;
+  padding: 5px;
   flex-grow: 0;
 }
 
 .copyright__link {
-  color: var(--saturated-blue);
+  color: var(--white);
+}
+
+.copyright__link:hover {
+  color: var(--light-blue);
 }
