@@ -3,36 +3,11 @@
     min-height: 100vh;
     font-size: 14px;
     font-weight: 400;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-
     position: relative;
-/* 
+    display: flex;
+    flex-direction: column;
     background-color: var(--dark-blue);
-    background-position-y: 420px; */
-
-
+    color: var(--white);
   }
-
-  /* .app::after{
-    content: '';
-    background-color: red;
-    position: absolute;
-    top: 420px;
-    left: 0;
-    height: 100%;
-
-  }
-
-  .app__container {
-    content: '';
-    background-color: red;
-    position: absolute;
-    top: 420px;
-    left: 0;
-    height: 100vh;
-  } */
