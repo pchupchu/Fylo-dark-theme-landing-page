@@ -46,13 +46,13 @@ function Footer() {
             </ul>
             <ul className='footer__links  footer__social-icons'>
               <li>
-              <a className='footer__social-icon footer__social-icon_facebook' href='https://www.facebook.com/'> </a>
+              <a className='footer__social-icon footer__social-icon_facebook' href='https://www.facebook.com/' aria-label='facebook'> </a>
               </li>
               <li>
-              <a className='footer__social-icon footer__social-icon_twitter' href='https://twitter.com/'> </a>
+              <a className='footer__social-icon footer__social-icon_twitter' href='https://twitter.com/' aria-label='twitter'> </a>
               </li>
               <li>
-              <a className='footer__social-icon footer__social-icon_instagram' href='https://www.instagram.com/'>
+              <a className='footer__social-icon footer__social-icon_instagram' href='https://www.instagram.com/' aria-label='instagram'>
               </a>
               </li>
             </ul>
