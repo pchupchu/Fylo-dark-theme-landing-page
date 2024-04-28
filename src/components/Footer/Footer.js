@@ -12,10 +12,10 @@ function Footer() {
               <p className='footer__text footer__text_contact footer__text_address'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             </div>
             <div className='footer__icon footer__icon_phone'>
-              <p className='footer__text footer__text_contact'>+1-543-123-4567</p>
+              <a className='footer__text footer__text_contact' href="tel:+15431234567">+1-543-123-4567</a>
             </div>
             <div className='footer__icon footer__icon_email'>
-              <p className='footer__text footer__text_contact'>example@fylo.com</p>
+              <a className='footer__text footer__text_contact' href="mailto:example@fylo.com">example@fylo.com</a>
             </div>
           </div>
           <nav className='footer__navigation'>

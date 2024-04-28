@@ -115,6 +115,8 @@
 .footer__text_contact {
   padding-left: 40px;
   font-size: 14px;
+  text-decoration: none;
+  color: var(--white);
 }
 
 .footer__text_address {
